@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #F6F2FF;
+}
+
+.nav{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.nav-left{
+    width: 50%;
+    height: 25px;
+    position: relative;
+    left: 149px;
+}
+
+.nav-right{
+    width: 50%;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.nav-item{
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.nav-item:hover{
+    text-decoration: underline;
+    font-size: 18px;
+}
+
+.btn-1{
+    width: 100px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn-1:hover{
+    background-color: aqua;
+}
+
+.main{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-left{
+    width: 50%;
+    height: 800px;
+}
+
+.heading-1{
+    width: 587px;
+    height: 168px;
+    font-size: 60px;
+    position: relative;
+    top: 196px;
+    left: 149px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: capitalize;
+    color: purple;
+}
+
+.paragraph-1{
+    width: 450px;
+    height: 48px;
+    line-height: 24px;
+    font-size: 18px;
+    position: relative;
+    top: 250px;
+    left: 149px;
+}
+
+.btn-2{
+    width: 150px;
+   height: 50px;
+   position: relative;
+   top: 300px;
+   left: 149px;
+   border-radius: 10px;
+   padding: 5px, 26px, 5px, 26px;
+   background-color: #85FFBD;
+   background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);   
+}
+
+.main-right{
+    width: 50%;
+    height: 800px;
+}
+
+.img-1{
+    background-image: url("picture/Splines.png");
+    width: 557px;
+    height: 516px;
+    position: relative;
+    top: 184.44px;
+    left: 275.41px;
+}
+
+.img-2{
+    width: 500px;
+    height: 312.12px;
+    position: relative;
+    bottom: 200px;
+    left: 302px;
+}
+
+@media only screen and (max-width: 1100px) {
+    .nav-right{
+        display: none;
+    }
+}
+
+@media only screen and (max-width:1100) {
+    .main{
+        width: 300px;
+        height: 38px;
+    }
+}
